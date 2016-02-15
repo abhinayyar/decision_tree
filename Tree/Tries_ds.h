@@ -13,6 +13,7 @@ class Tries
 	string attribute_name;
 
 	vector<pair<Tries*,string> > value;
+	bool is_target_value;
 
 	
 	Tries(vector<string> values_str,string atr)
@@ -25,6 +26,7 @@ class Tries
 			value.push_back(p);
 		}
 		attribute_name.assign(atr);
+		is_target_value=false;
 	}
 
 	~Tries()
@@ -36,20 +38,16 @@ class Tries
 class Attribute_feature
 {
 	public:
-	int min_value;
-	int max_value;
-	int mean;
-	int sd;
+	string min_value;
+	string max_value;
+	float mean;
+	float sd;
+	bool is_cont;
+	bool has_empty;
 	vector<string> attribute_values;
-	vector<string> target_values;
 
-	Attribute_feature(int min_val,int max_val,int m,int s,vector<string> att_val)
+	Attribute_feature(vector<string> att_val)
 	{
-		min_value=min_val;
-		max_value=max_val;
-		mean=m;
-		sd=s;
-
 		for(string s : att_val)
 		{
 			attribute_values.push_back(s);
