@@ -28,5 +28,9 @@ void display_stack_contents(vector<string> stack);
 void display_tree(Tries *root,vector<string> stack,int i,int j);
 void get_mid_value(vector<pair<vector<string>,string> > input_data,string split_attribute,float& start,float& end);
 vector<pair<vector<string>,string> > refine_data_cont(vector<pair<vector<string>,string> >& input_data,string split_attribute,float start,float end);
+int get_value_index(Tries *root,string value);
+int get_cont_value_index(Tries *root,string value);
+int check_each_data(Tries *root,pair<vector<string>,string> t_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
+int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
 
 #endif

@@ -1,0 +1,2 @@
+vendor_name,Model_Name,MYCT,MMIN,MMAX,CACH,CHMIN,CHMAX,PRP,0
+0,0,1,1,1,1,1,1,1

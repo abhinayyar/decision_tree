@@ -5,6 +5,7 @@
 
 using namespace std;
 
+#define LIMIT 5
 
 int main(int argv,char *argc[])
 {
@@ -19,15 +20,17 @@ int main(int argv,char *argc[])
 
 	bool is_target_front=false;
 	Tries *root;
-	
+	int data_size=0;
+	int pass_count=0;
 	vector<pair<vector<string>,string> > input_data;
+	vector<pair<vector<string>,string> > test_data;
 	unordered_map<string,Attribute_feature*> attributes;
 	vector<string> target_values;
 	vector<string> a_list;
 	vector<pair<string,bool> > is_cont;
 
-	is_target_front=read_control_file(argc[1],a_list,is_cont);
-	read_data_file(argc[2],input_data,is_target_front,attributes,a_list,target_values);	
+	is_target_front=read_control_file(argc[1],a_list,is_cont,data_size);
+	read_data_file(argc[2],input_data,is_target_front,attributes,a_list,target_values,test_data,data_size);	
 
 	/* target value in front = true else false */
 
@@ -37,6 +40,11 @@ int main(int argv,char *argc[])
 	fill_cont_values(is_cont,attributes);
 
 	
+	// flll missing value data 
+
+	pre_process_data(input_data);
+
+
 	//display_att_listing(attributes);
 
 	root=form_decision_tree(input_data,attributes,target_values);
@@ -55,8 +63,92 @@ int main(int argv,char *argc[])
 	vector<string> stack;
 	display_tree(root,stack,0,0);
 
-				
+	/* test the accuracy of decision tree */	
+	pass_count=test_decision_tree(root,test_data,a_list,attributes);
+	//cout<<"======== PASS COUNT ========\n";
+	//cout<<pass_count<<"\n";	
+	float per=((float)pass_count/(float)test_data.size())*100;
+	cout<<"\n";
+	cout<<"========PERCENTAGE PASS========\n";
+	cout<<per<<"\n";		
 	return 0;
+}
+
+/* function to test accuracy of decision tree */
+int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes)
+{
+	int pass_count=0;
+	for(int i=0;i<test_data.size();i++)
+	{
+		pass_count+=check_each_data(root,test_data[i],a_list,attributes);
+	}
+	return pass_count;
+}
+
+/* test for each data */
+int check_each_data(Tries *root,pair<vector<string>,string> t_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes)
+{
+	int get_attribute_colm=get_attribute_co(a_list,root->attribute_name);
+	//cout<<root->attribute_name<<"\n";
+	if(get_attribute_colm!=-1)
+	{	
+		if(attributes[root->attribute_name]->is_cont==false)
+		{
+			int value_index=get_value_index(root,t_data.first[get_attribute_colm]);
+			if(value_index!=-1)
+			return check_each_data(root->value[value_index].first,t_data,a_list,attributes);
+			else
+			{
+				//cout<<"=========== WRONG DATA RETRIEVED ========\n";
+				return 0;
+			}
+		}
+		else
+		{
+			//cout<<"cont attribute\n";
+			int value_index=get_cont_value_index(root,t_data.first[get_attribute_colm]);
+			return check_each_data(root->value[value_index].first,t_data,a_list,attributes);
+		}
+	}
+	else if(get_attribute_colm==-1 && root->is_end==true)
+	{
+		if(root->attribute_name.compare(t_data.second)==0)
+			return 1;
+		else
+			return 0;
+	}
+	return 0;	
+}
+
+/* function to get value index for continous attribute */
+int get_cont_value_index(Tries *root,string value)
+{
+	string left=root->value[0].second;
+	string right=root->value[1].second;
+
+	left.erase(left.begin());
+	left.erase(left.begin());
+	right.erase(right.begin());
+
+	float left_value=stof(value);
+	float act_value=stof(left);
+
+	if(left_value<=act_value)
+		return 0;
+	else
+		return 1;
+	//cout<<left<<"\t"<<right<<"\n";
+}
+/* function to get index for a value */
+
+int get_value_index(Tries *root,string value)
+{
+	for(int i=0;i<root->value.size();i++)
+	{
+		if(root->value[i].second.compare(value)==0)
+			return i;
+	}
+	return -1;
 }
 
 /* function to dipplay refined data contents */
@@ -195,6 +287,34 @@ string get_majority_target(vector<pair<vector<string>,string> >& input_data)
 	return target_value;
 
 }
+/* function get predicted values */
+
+string get_predicted_value(vector<string>& target_values)
+{
+	string target_value;
+
+	unordered_map<string,int> dict;
+	int max_value=0;
+
+	for(string s : target_values)
+	{
+		if(dict.find(s)==dict.end())
+		dict.insert(make_pair(s,1));
+		else
+		dict[s]++;
+
+		if(max_value<dict[s])
+		{
+			max_value=dict[s];
+			target_value.assign(s);
+		}
+	}
+
+
+	return target_value;
+
+
+}
 /* function to form decision tree */
 
 Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values)
@@ -206,10 +326,27 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 
 //		cout<<"DATA END===============================\n";
 
-	if(input_data.size()==1) return NULL;
+	if(input_data.size()<=LIMIT)
+	{
+		//Tries *node = new Tries(vector<string>(),"Majority value");
+		string majority_value=get_majority_target(input_data);
+		if(majority_value.empty()==false)
+		{
+			Tries *end_node = new Tries(vector<string>(),majority_value);
+			end_node->is_end=true;
+			return end_node;
+		}
+		else
+		{
+			Tries *end_node = new Tries(vector<string>(),get_predicted_value(target_values));
+			end_node->is_end=true;
+			return end_node;
+		}
+	} 
 	if(is_single_target(input_data,target_val) || is_empty_attribute(input_data,target_val,attributes))
 	{
 		Tries *node = new Tries(vector<string>(),target_val);
+		node->is_end=true;
 		//cout<<"Termination\n";
 		return node;
 	}
@@ -217,7 +354,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 	{
 		
 		string split_attribute=get_split_attribute_ig(attributes,input_data,target_values);
-		cout<<split_attribute<<"\n";
+		//cout<<split_attribute<<"\n";
 		
 		// check for discrete or continous attribute
 		if(attributes[split_attribute]->is_cont==true)
@@ -242,7 +379,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 
 			//cout<<"===========LEFT========================  "<<mid<<"\t"<<split_attribute<<"\n";
 			vector<pair<vector<string>,string> > process_data_left=refine_data_cont(input_data,split_attribute,start,mid);
-			display_refine_data(process_data_left);
+			//display_refine_data(process_data_left);
 			if(process_data_left.empty()==false)	
 			node->value[0].first=form_decision_tree(process_data_left,attributes,target_values);
 			else
@@ -252,11 +389,12 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 				
 				Tries *end_node = new Tries(vector<string>(),get_majority_target(input_data));
 				node->value[0].first=end_node;
+				node->is_end=true;
 			}
 
 			//cout<<"===========RIGHT======================== "<<mid<<"\t"<<split_attribute<<"\n";
 			vector<pair<vector<string>,string> > process_data_right=refine_data_cont(input_data,split_attribute,mid,end);	
-			display_refine_data(process_data_right);
+			//display_refine_data(process_data_right);
 			if(process_data_right.empty()==false)
 			node->value[1].first=form_decision_tree(process_data_right,attributes,target_values);
 			else
@@ -266,6 +404,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 
 				Tries *end_node = new Tries(vector<string>(),get_majority_target(input_data));
 				node->value[1].first=end_node;
+				node->is_end=true;
 			}
 			
 			//cout<<min_value<<"\t"<<max_value<<"\n";
@@ -559,7 +698,7 @@ vector<pair<vector<string>,string> > refine_data(vector<pair<vector<string>,stri
 int get_attribute_co(vector<string> lc_att,string split_attribute)
 {
 
-	int get_attribute_colm=0;
+	int get_attribute_colm=-1;
 	for(int i=0;i<lc_att.size();i++)
 	{
 		if(lc_att[i].compare(split_attribute)==0)

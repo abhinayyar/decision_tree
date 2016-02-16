@@ -13,7 +13,7 @@ class Tries
 	string attribute_name;
 
 	vector<pair<Tries*,string> > value;
-	bool is_target_value;
+	bool is_end;
 
 	
 	Tries(vector<string> values_str,string atr)
@@ -26,7 +26,7 @@ class Tries
 			value.push_back(p);
 		}
 		attribute_name.assign(atr);
-		is_target_value=false;
+		is_end=false;
 	}
 
 	~Tries()
