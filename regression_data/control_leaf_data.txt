@@ -1,0 +1,2 @@
+Specimen_Number,Eccentricity,Aspect_Ratio,Elongation,Solidity,Stochastic_Convexity,Isoperimetric_Factor,Maximal_Indentation_Depth,Lobedness,Average_Intensity,Average_Contrast, Smoothness,Third_moment,Uniformity,Entropy,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,340

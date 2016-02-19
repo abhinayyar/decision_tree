@@ -14,6 +14,8 @@ class Tries
 
 	vector<pair<Tries*,string> > value;
 	bool is_end;
+	// number of values corresponding to each class variable
+	unordered_map<string,int> class_pair;
 
 	
 	Tries(vector<string> values_str,string atr)

@@ -32,5 +32,9 @@ int get_value_index(Tries *root,string value);
 int get_cont_value_index(Tries *root,string value);
 int check_each_data(Tries *root,pair<vector<string>,string> t_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
 int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
+void display_refine_data(vector<pair<vector<string>,string> > input_data);
+
+void me_prune_tree(Tries *root);
+float check_each_node(Tries *root,float prev_total);
 
 #endif

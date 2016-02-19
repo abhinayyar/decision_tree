@@ -6,6 +6,7 @@
 using namespace std;
 
 #define LIMIT 5
+//#define CLASS_LABEL 0
 
 int main(int argv,char *argc[])
 {
@@ -42,9 +43,11 @@ int main(int argv,char *argc[])
 	
 	// flll missing value data 
 
+	//display_refine_data(input_data);
+	//cout<<"\n====\n";
 	pre_process_data(input_data);
 
-
+	//display_refine_data(input_data);
 	//display_att_listing(attributes);
 
 	root=form_decision_tree(input_data,attributes,target_values);
@@ -70,10 +73,116 @@ int main(int argv,char *argc[])
 	float per=((float)pass_count/(float)test_data.size())*100;
 	cout<<"\n";
 	cout<<"========PERCENTAGE PASS========\n";
-	cout<<per<<"\n";		
+	cout<<per<<"\n";	
+
+
+	// prune tree
+
+	me_prune_tree(root);
+
+	// diplay prune tree
+
+	cout<<"\n";
+	cout<<"\n";
+	cout<<"=========================================\n";
+	cout<<"------------- PRUNED OUTPUT---------------------------\n";
+	cout<<"=========================================\n";
+	cout<<"\n";
+	cout<<"\n";
+
+	vector<string> stack_prune;
+	display_tree(root,stack_prune,0,0);
+
+	/* test the accuracy of prunned decision tree */	
+	pass_count=test_decision_tree(root,test_data,a_list,attributes);
+	//cout<<"======== PASS COUNT ========\n";
+	//cout<<pass_count<<"\n";	
+	float per_pur=((float)pass_count/(float)test_data.size())*100;
+	cout<<"\n";
+	cout<<"========PERCENTAGE PASS========\n";
+	cout<<per_pur<<"\n";
 	return 0;
 }
 
+/* function to check prunning per node */
+
+float check_each_node(Tries *root,float prev_total)
+{
+
+
+	if(!root || root->value.size()==0) return 0;
+
+	// value corresponding to not pruning sub tree
+	float target=0;
+
+
+	float total_v=0,majority=INT_MIN,class_nu=root->class_pair.size();
+	string maj_name;
+
+	for(pair<string,int> p : root->class_pair)
+	{
+		total_v+=p.second;
+
+		if(majority<p.second)
+		{
+			majority=p.second;
+			maj_name.assign(p.first);
+		}
+	}
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		target+=check_each_node(root->value[i].first,total_v);
+	}
+
+
+	// value corresponding to prunning 
+
+	float prunning_value=0;
+
+
+	prunning_value=(total_v - majority + class_nu -1)/(total_v+class_nu);
+
+	if(prunning_value<target)
+	{
+		// we must prune the tree;
+
+		while(root->value.size()==1)
+			root->value.pop_back();
+
+		Tries *end_node= new Tries(vector<string>(),maj_name);
+		end_node->is_end=true;
+		root->value[0].first=end_node;
+	}
+
+	return (total_v/prev_total)*prunning_value;
+
+}
+/* function to prune decision tree */
+
+void me_prune_tree(Tries *root)
+{
+
+	// we can cannot prune root
+
+	// pruning method : minimum error pruning
+
+	float target=0;
+
+	float prev_total=0;
+
+	for(pair<string,int> p : root->class_pair)
+	{
+		prev_total+=p.second;
+	}
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		target+=check_each_node(root->value[i].first,prev_total);
+	}
+
+	// we need not to prune root so no need to compare target
+}
 /* function to test accuracy of decision tree */
 int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes)
 {
@@ -216,6 +325,20 @@ void display_tree(Tries *root,vector<string> stack,int i,int j)
 
 	stack.push_back(root->attribute_name);
 
+	// get value corresponding to each node
+	// define class label if you want to test class labels
+	
+#ifdef CLASS_LABEL
+	string sub="( ";
+	for(pair<string,int> p : root->class_pair)
+	{
+		sub+=to_string(p.second)+"  ";
+	}
+	sub+=" )";
+	stack.push_back(sub);
+#endif
+	
+
 	for(int i=0;i<root->value.size();i++)
 	{
 		att.assign(" = "+root->value[i].second);
@@ -251,8 +374,11 @@ void get_mid_value(vector<pair<vector<string>,string> > input_data,string split_
 	for(int i=1;i<input_data.size();i++)
 	{
 		vector<string> _att=input_data[i].first;
-		start=min(stof(_att[get_attribute_colm]),start);
-		end=max(stof(_att[get_attribute_colm]),end);
+		if(_att[get_attribute_colm].empty()==false)
+		{
+			start=min(stof(_att[get_attribute_colm]),start);
+			end=max(stof(_att[get_attribute_colm]),end);
+		}
 	}	
 
 }
@@ -315,6 +441,25 @@ string get_predicted_value(vector<string>& target_values)
 
 
 }
+
+/* function to get class pair */
+unordered_map<string,int>  get_class_pair(vector<pair<vector<string>,string> >& input_data)
+{
+	unordered_map<string,int> lc_pair;
+	for(pair<vector<string>,string> p : input_data)
+	{
+		if(lc_pair.find(p.second)==lc_pair.end())
+		{
+			lc_pair.insert(make_pair(p.second,1));
+		}
+		else
+		{
+			lc_pair[p.second]++;
+		}
+	}
+
+	return lc_pair;
+}
 /* function to form decision tree */
 
 Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values)
@@ -354,6 +499,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 	{
 		
 		string split_attribute=get_split_attribute_ig(attributes,input_data,target_values);
+		
 		//cout<<split_attribute<<"\n";
 		
 		// check for discrete or continous attribute
@@ -376,6 +522,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 			temp.push_back(tt);
 
 			Tries *node = new Tries(temp,split_attribute);
+			node->class_pair=get_class_pair(input_data);
 
 			//cout<<"===========LEFT========================  "<<mid<<"\t"<<split_attribute<<"\n";
 			vector<pair<vector<string>,string> > process_data_left=refine_data_cont(input_data,split_attribute,start,mid);
@@ -414,7 +561,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 		{
 			
 			Tries *node = new Tries(attributes[split_attribute]->attribute_values,split_attribute);
-
+			node->class_pair=get_class_pair(input_data);
 			attributes.erase(split_attribute);
 			for(int i=0;i<node->value.size();i++)
 			{
@@ -644,9 +791,12 @@ vector<pair<vector<string>,string> > refine_data_cont(vector<pair<vector<string>
 	for(int i=1;i<input_data.size();i++)
 	{
 		vector<string> _att=input_data[i].first;
-		if(stof(_att[get_attribute_colm])>start && stof(_att[get_attribute_colm])<=end)
+		if(_att[get_attribute_colm].empty()==false)
 		{
-			process_data.push_back(input_data[i]);
+			if(stof(_att[get_attribute_colm])>start && stof(_att[get_attribute_colm])<=end)
+			{
+				process_data.push_back(input_data[i]);
+			}
 		}
 	}
 

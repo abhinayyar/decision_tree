@@ -124,7 +124,7 @@ void check_test_data(vector<pair<vector<string>,string> > test_data)
 }
 /* pre process data */
 
-void pre_process_data(vector<pair<vector<string>,string> > input_data)
+void pre_process_data(vector<pair<vector<string>,string> >& input_data)
 {
 
 	vector<pair<vector<string>,string> > majority_value(1);
@@ -141,44 +141,48 @@ void pre_process_data(vector<pair<vector<string>,string> > input_data)
 	{
 		vector<string> temp=input_data[i].first;
 		
-
-		if(input_data[i].second.compare("?")!=0 && dict[target_loc].find(input_data[i].second)!=dict[target_loc].end())
+		if(input_data[i].second.compare("?")!=0)
 		{
-			dict[target_loc].insert(make_pair(input_data[i].second,1));
-		}
-		else
-		{
-			dict[target_loc][input_data[i].second]++;
-		}
+			if(dict[target_loc].find(input_data[i].second)!=dict[target_loc].end())
+			{
+				dict[target_loc].insert(make_pair(input_data[i].second,1));
+			}
+			else
+			{
+				dict[target_loc][input_data[i].second]++;
+			}
 
 		
 
-		if(max_target<dict[target_loc][input_data[i].second])
-		{
-			majority_value[0].second.assign(input_data[i].second);
-			max_target=dict[target_loc][input_data[i].second];
+			if(max_target<dict[target_loc][input_data[i].second])
+			{
+				majority_value[0].second.assign(input_data[i].second);
+				max_target=dict[target_loc][input_data[i].second];
+			}
 		}
-
 		//cout<<"++++++++++++++++++\t"<<majority_value[0].second<<"\n";
 		int j=0;
 		for(string s : input_data[i].first)
 		{
 			//cout<<s<<"\t";
-			if(s.compare("?")!=0 && dict[j].find(s)==dict[j].end())
+			if(s.compare("?")!=0)
 			{
-				dict[j].insert(make_pair(s,1));
-			}
-			else
-			{
-				dict[j][s]++;
-			}
+				if(dict[j].find(s)==dict[j].end())
+				{
+					dict[j].insert(make_pair(s,1));
+				}
+				else
+				{
+					dict[j][s]++;
+				}
 			
 
-			if(max_value[j]<dict[j][s])
-			{
-				max_value[j]=dict[j][s];
-				lc_maj[j].assign(s);
+				if(max_value[j]<dict[j][s])
+				{
+					max_value[j]=dict[j][s];
+					lc_maj[j].assign(s);
 
+				}
 			}
 			j++;
 		}
@@ -214,6 +218,7 @@ void pre_process_data(vector<pair<vector<string>,string> > input_data)
 		}
 		if(input_data[i].second.compare("?")==0)
 		{
+			//cout<<"DETECTED"<<majority_value[0].second<<"\n";
 			input_data[i].second.assign(majority_value[0].second);
 		}
 	}

@@ -1,0 +1,2 @@
+X,Y,month,day,FFMC,DMC,DC,ISI,temp,RH,wind,rain,0
+1,1,0,0,1,1,1,1,1,1,1,1,517

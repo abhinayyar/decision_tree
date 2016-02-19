@@ -1,0 +1,2 @@
+mcv,alkphos,sgpt,sgot,gammagt,drinks,0
+1,1,1,1,1,1,345
