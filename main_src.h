@@ -17,7 +17,7 @@ using namespace std;
 /* function to determine all positive/negative targets */
 bool is_single_target(vector<pair<vector<string>,string> >& input_data,string& target_value);
 bool is_empty_attribute(vector<pair<vector<string>,string> >& input_data,string& target_value,unordered_map<string,Attribute_feature*>& attributes);
-Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values);
+Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values,int & leaf);
 string get_majority_target(vector<pair<vector<string>,string> >& input_data);
 string get_split_attribute_ig(unordered_map<string,Attribute_feature*>& attributes,vector<pair<vector<string>,string> >& input_data,vector<string>& target_values);
 vector<pair<vector<string>,string> > refine_data(vector<pair<vector<string>,string> >& input_data,string split_attribute,string att_value);
@@ -36,5 +36,8 @@ void display_refine_data(vector<pair<vector<string>,string> > input_data);
 
 void me_prune_tree(Tries *root);
 float check_each_node(Tries *root,float prev_total);
+unordered_map<string,int>  get_class_pair_cont(vector<pair<vector<string>,string> >& input_data,float mid);
+void ec_prune_tree(Tries *root,float test_size);
+float node_check(Tries *root,float test_size,vector<pair<vector<Tries*>,float> >& p_tr,vector<Tries*>& stack);
 
 #endif

@@ -14,6 +14,8 @@ class Tries
 
 	vector<pair<Tries*,string> > value;
 	bool is_end;
+	int num_leaves;
+	float total_v;
 	// number of values corresponding to each class variable
 	unordered_map<string,int> class_pair;
 
@@ -29,11 +31,18 @@ class Tries
 		}
 		attribute_name.assign(atr);
 		is_end=false;
+		num_leaves=0;
+		total_v=0;
 	}
 
 	~Tries()
 	{
 		/* destructor function */
+
+		for(pair<Tries*,string> p : value)
+		{
+			delete p.first;
+		}
 	}
 };
 

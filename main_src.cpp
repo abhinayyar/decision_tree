@@ -22,7 +22,7 @@ int main(int argv,char *argc[])
 	bool is_target_front=false;
 	Tries *root;
 	int data_size=0;
-	int pass_count=0;
+	int pass_count=0,leaf=0;
 	vector<pair<vector<string>,string> > input_data;
 	vector<pair<vector<string>,string> > test_data;
 	unordered_map<string,Attribute_feature*> attributes;
@@ -50,7 +50,7 @@ int main(int argv,char *argc[])
 	//display_refine_data(input_data);
 	//display_att_listing(attributes);
 
-	root=form_decision_tree(input_data,attributes,target_values);
+	root=form_decision_tree(input_data,attributes,target_values,leaf);
 
 
 	/* Display Tree */
@@ -76,7 +76,7 @@ int main(int argv,char *argc[])
 	cout<<per<<"\n";	
 
 
-	// prune tree
+	// prune tree minimum error prunning , all class attributes are equally likely
 
 	me_prune_tree(root);
 
@@ -85,7 +85,7 @@ int main(int argv,char *argc[])
 	cout<<"\n";
 	cout<<"\n";
 	cout<<"=========================================\n";
-	cout<<"------------- PRUNED OUTPUT---------------------------\n";
+	cout<<"------------- PRUNNED OUTPUT (Minimun Error Prunning )---------------------------\n";
 	cout<<"=========================================\n";
 	cout<<"\n";
 	cout<<"\n";
@@ -101,9 +101,160 @@ int main(int argv,char *argc[])
 	cout<<"\n";
 	cout<<"========PERCENTAGE PASS========\n";
 	cout<<per_pur<<"\n";
+
+
+	// error complexity pruning , all class attributes are not equally likely
+
+	ec_prune_tree(root,test_data.size());
+
+
+	cout<<"\n";
+	cout<<"\n";
+	cout<<"=========================================\n";
+	cout<<"------------- PRUNNED OUTPUT (Error complexity Prunning )---------------------------\n";
+	cout<<"=========================================\n";
+	cout<<"\n";
+	cout<<"\n";
+
+	vector<string> stack_prune_ec;
+	display_tree(root,stack_prune_ec,0,0);
+
+	/* test the accuracy of prunned decision tree */	
+	pass_count=test_decision_tree(root,test_data,a_list,attributes);
+	//cout<<"======== PASS COUNT ========\n";
+	//cout<<pass_count<<"\n";	
+	float per_pur_ec=((float)pass_count/(float)test_data.size())*100;
+	cout<<"\n";
+	cout<<"========PERCENTAGE PASS========\n";
+	cout<<per_pur_ec<<"\n";
+
 	return 0;
 }
 
+/* function to cal for each node */
+float node_check(Tries *root,float test_size,vector<pair<vector<Tries*>,float> >& p_tr,vector<Tries*>& stack)
+{
+
+	if(!root || root->value.size()==0) return 0;
+
+
+	float error_rate=0,error=0,max_e=0,total_v=0;
+	float alpha=0;
+
+	for(pair<string,int> p : root->class_pair)
+	{
+		if(max_e<p.second)
+		{
+			max_e=p.second;
+		}
+		total_v+=p.second;
+	}
+
+	error_rate=(total_v-max_e)/test_size;
+
+	float not_prunned=0;
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		not_prunned+=node_check(root->value[i].first,test_size,p_tr,stack);
+	}
+
+
+	alpha=(error_rate-not_prunned)/(root->num_leaves-1);
+
+	stack.push_back(root);
+	p_tr.push_back(make_pair(stack,alpha));
+
+	return error_rate;
+}
+
+/* final prune tree for particular value of alpha */
+void final_prune(Tries *root,vector<Tries*> res)
+{
+	if(!root || root->value.size()==0 || res.size()==0) return;
+
+	int i=0;
+	bool is_there=false;
+	int majority=INT_MIN;
+	string maj_name;
+	for(Tries *ptr : res)
+	{
+		if(ptr==root)
+		{
+			// need to prune corresponding to this 
+			is_there=true;
+
+			for(pair<string,int> p : root->class_pair)
+			{
+		
+
+				if(majority<p.second)
+				{
+					majority=p.second;
+					maj_name.assign(p.first);
+				}
+			}
+
+			while(root->value.size()>1)
+			{
+				root->value.pop_back();
+			}
+			Tries *end_node= new Tries(vector<string>(),maj_name);
+			end_node->is_end=true;
+			root->value[0].first=end_node;
+
+		}
+		i++;
+	}
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		final_prune(root->value[i].first,res);
+	}
+}
+/* function to do error complexity pruning */
+
+void ec_prune_tree(Tries *root,float test_size)
+{
+
+	// error complexity pruning method
+
+	vector<pair<vector<Tries*>,float> > p_tr;
+	vector<Tries*> stack;
+
+	float target=0;
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		target=node_check(root->value[i].first,test_size,p_tr,stack);
+	}
+
+	// prune the tree on the basis of smallest value of alpha
+
+	vector<Tries*> res;
+
+	float min_e=test_size;
+	for(int i=0;i<p_tr.size();i++)
+	{
+		if(p_tr[i].second<min_e)
+		{
+			min_e=p_tr[i].second;
+			res=p_tr[i].first;
+			//cout<<min_e<<"\n";
+		}
+	}
+
+	//for(Tries *s : res)
+	//{
+	//	cout<<s->attribute_name<<"\t";
+	//}
+	//cout<<"\n";
+	// root need not to be proned
+
+	// prune tree for attributes corresponding to smallest value of alpha
+
+	final_prune(root,res);
+}
 /* function to check prunning per node */
 
 float check_each_node(Tries *root,float prev_total)
@@ -147,8 +298,11 @@ float check_each_node(Tries *root,float prev_total)
 	{
 		// we must prune the tree;
 
-		while(root->value.size()==1)
+		while(root->value.size()>1)
+		{
+			//delete root->value.back().first;
 			root->value.pop_back();
+		}
 
 		Tries *end_node= new Tries(vector<string>(),maj_name);
 		end_node->is_end=true;
@@ -337,7 +491,13 @@ void display_tree(Tries *root,vector<string> stack,int i,int j)
 	sub+=" )";
 	stack.push_back(sub);
 #endif
-	
+
+#ifdef DISLEAF
+
+	string ll=" [ " + to_string(root->num_leaves) + " ] ";
+	stack.push_back(ll);
+#endif
+
 
 	for(int i=0;i<root->value.size();i++)
 	{
@@ -441,11 +601,45 @@ string get_predicted_value(vector<string>& target_values)
 
 
 }
+/* function to get class pair for continous data input */
 
-/* function to get class pair */
-unordered_map<string,int>  get_class_pair(vector<pair<vector<string>,string> >& input_data)
+unordered_map<string,int>  get_class_pair_cont(vector<pair<vector<string>,string> >& input_data,float mid)
 {
 	unordered_map<string,int> lc_pair;
+
+	string left = "<="+to_string(mid);
+	string right = ">"+to_string(mid);
+	lc_pair.insert(make_pair(left,0));
+	lc_pair.insert(make_pair(right,0));
+
+
+	// implementation of code assuning continous target value case : need to track
+	/*
+
+	for(int i=0;i<input_data.size();i++)
+	{
+
+		
+		if(stof(p.second)<=mid)
+		{
+			lc_pair[left]++;
+		}
+		else
+		{
+			lc_pair[right]++;
+		}
+		
+	}
+	*/
+
+	return lc_pair;
+
+}
+/* function to get class pair */
+unordered_map<string,int>  get_class_pair(vector<pair<vector<string>,string> >& input_data,float& total_v)
+{
+	unordered_map<string,int> lc_pair;
+
 	for(pair<vector<string>,string> p : input_data)
 	{
 		if(lc_pair.find(p.second)==lc_pair.end())
@@ -456,16 +650,18 @@ unordered_map<string,int>  get_class_pair(vector<pair<vector<string>,string> >& 
 		{
 			lc_pair[p.second]++;
 		}
+		total_v+=lc_pair[p.second];
 	}
 
 	return lc_pair;
 }
 /* function to form decision tree */
 
-Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values)
+Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unordered_map<string,Attribute_feature*> attributes,vector<string>& target_values,int& leaf)
 {
 	string target_val;
 
+	int left_leaf=0,right_leaf=0;
 	//cout<<"DATA ===============================\n";
 	//	display_refine_data(input_data);
 
@@ -479,21 +675,23 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 		{
 			Tries *end_node = new Tries(vector<string>(),majority_value);
 			end_node->is_end=true;
+			leaf++;
 			return end_node;
 		}
 		else
 		{
 			Tries *end_node = new Tries(vector<string>(),get_predicted_value(target_values));
 			end_node->is_end=true;
+			leaf++;
 			return end_node;
 		}
 	} 
 	if(is_single_target(input_data,target_val) || is_empty_attribute(input_data,target_val,attributes))
 	{
-		Tries *node = new Tries(vector<string>(),target_val);
-		node->is_end=true;
-		//cout<<"Termination\n";
-		return node;
+		Tries *end_node = new Tries(vector<string>(),target_val);
+		end_node->is_end=true;
+		leaf++;
+		return end_node;
 	}
 	else
 	{
@@ -522,13 +720,14 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 			temp.push_back(tt);
 
 			Tries *node = new Tries(temp,split_attribute);
-			node->class_pair=get_class_pair(input_data);
+			// may differ if handling done for continous target attribute too , but id3 not good in that
+			node->class_pair=get_class_pair(input_data,node->total_v);
 
 			//cout<<"===========LEFT========================  "<<mid<<"\t"<<split_attribute<<"\n";
 			vector<pair<vector<string>,string> > process_data_left=refine_data_cont(input_data,split_attribute,start,mid);
 			//display_refine_data(process_data_left);
 			if(process_data_left.empty()==false)	
-			node->value[0].first=form_decision_tree(process_data_left,attributes,target_values);
+			node->value[0].first=form_decision_tree(process_data_left,attributes,target_values,left_leaf);
 			else
 			{
 				// get majority value
@@ -537,13 +736,14 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 				Tries *end_node = new Tries(vector<string>(),get_majority_target(input_data));
 				node->value[0].first=end_node;
 				node->is_end=true;
+				leaf++;
 			}
 
 			//cout<<"===========RIGHT======================== "<<mid<<"\t"<<split_attribute<<"\n";
 			vector<pair<vector<string>,string> > process_data_right=refine_data_cont(input_data,split_attribute,mid,end);	
 			//display_refine_data(process_data_right);
 			if(process_data_right.empty()==false)
-			node->value[1].first=form_decision_tree(process_data_right,attributes,target_values);
+			node->value[1].first=form_decision_tree(process_data_right,attributes,target_values,right_leaf);
 			else
 			{
 				// get majority value
@@ -552,23 +752,30 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 				Tries *end_node = new Tries(vector<string>(),get_majority_target(input_data));
 				node->value[1].first=end_node;
 				node->is_end=true;
+				leaf++;
 			}
 			
 			//cout<<min_value<<"\t"<<max_value<<"\n";
+			node->num_leaves=leaf+left_leaf+right_leaf;
+			leaf=node->num_leaves;
 			return node;
 		}
 		else
 		{
 			
 			Tries *node = new Tries(attributes[split_attribute]->attribute_values,split_attribute);
-			node->class_pair=get_class_pair(input_data);
+			node->class_pair=get_class_pair(input_data,node->total_v);
 			attributes.erase(split_attribute);
 			for(int i=0;i<node->value.size();i++)
 			{
+				int al_leaf=0;
 				vector<pair<vector<string>,string> > process_data=refine_data(input_data,split_attribute,node->value[i].second);
-				node->value[i].first=form_decision_tree(process_data,attributes,target_values);
+				node->value[i].first=form_decision_tree(process_data,attributes,target_values,al_leaf);
+				node->num_leaves+=al_leaf;
 			}
-		
+
+			node->num_leaves+=leaf;
+			leaf=node->num_leaves;
 			return node;
 		}
 		
