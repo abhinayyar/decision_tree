@@ -1,0 +1,853 @@
+
+
+=========================================
+-------------OUTPUT : 1 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-virginica 47  Iris-setosa 42   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 41   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 20   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 42  Iris-versicolor 46  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-versicolor 35  Iris-virginica 47   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 14
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ Gen PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 11
+
+
+=========================================
+-------------OUTPUT : 2 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = <=5.950000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = >5.950000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-versicolor 10  Iris-virginica 1   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-versicolor 10  Iris-virginica 1   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = <=5.950000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = >5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = <=5.950000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = >5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 14   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-versicolor 10  Iris-virginica 1   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-versicolor 10  Iris-virginica 1   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 33   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 80	 TRAIN DATA 94.8529	NODES (path till leaf) 13
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 80	 TRAIN DATA 94.8529	NODES (path till leaf) 9
+
+------ Gen PRUNNING ---
+ TEST DATA : 80	 TRAIN DATA 94.8529	NODES (path till leaf) 9
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 80	 TRAIN DATA 94.8529	NODES (path till leaf) 10
+
+
+=========================================
+-------------OUTPUT : 3 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = <=5.900000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = >5.900000	petal_width	( Iris-versicolor 5  Iris-virginica 1   )	 = <=1.350000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = >5.900000	petal_width	( Iris-versicolor 5  Iris-virginica 1   )	 = >1.350000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >5.950000	petal_width	( Iris-virginica 2  Iris-versicolor 5   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >5.950000	petal_width	( Iris-virginica 2  Iris-versicolor 5   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = >6.300000	petal_width	( Iris-virginica 1  Iris-versicolor 10   )	 = <=1.500000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = >6.300000	petal_width	( Iris-virginica 1  Iris-versicolor 10   )	 = >1.500000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 43  Iris-versicolor 45   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = >1.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = >1.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = >1.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 11   )	 = <=5.900000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >5.950000	petal_width	( Iris-virginica 2  Iris-versicolor 5   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = <=6.300000	petal_width	( Iris-virginica 3  Iris-versicolor 22   )	 = >1.400000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >5.950000	petal_width	( Iris-virginica 2  Iris-versicolor 5   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = >6.300000	petal_width	( Iris-virginica 1  Iris-versicolor 10   )	 = <=1.500000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 33   )	 = >6.300000	petal_width	( Iris-virginica 1  Iris-versicolor 10   )	 = >1.500000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 47  Iris-virginica 43   )	 = >3.950000	petal_width	( Iris-virginica 43  Iris-versicolor 35   )	 = >1.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 11
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 96.3235	NODES (path till leaf) 4
+
+------ Gen PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 96.3235	NODES (path till leaf) 4
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 8
+
+
+=========================================
+-------------OUTPUT : 4 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-virginica	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 44  Iris-virginica 45  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 43   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 15   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 25   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 44  Iris-virginica 45   )	 = >3.950000	petal_width	( Iris-virginica 45  Iris-versicolor 36   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 41   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 13
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 13
+
+------ Gen PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 13
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 91.9118	NODES (path till leaf) 10
+
+
+=========================================
+-------------OUTPUT : 5 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = <=6.050000	Iris-versicolor	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.500000	Iris-versicolor	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 48  Iris-virginica 47  Iris-versicolor 40   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = <=6.050000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.500000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = <=6.050000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.500000	sepal_length	( Iris-virginica 2  Iris-versicolor 11   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.500000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 7  Iris-setosa 47   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 30   )	 = <=6.050000	Iris-versicolor	
+petal_length	( Iris-versicolor 40  Iris-setosa 48  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 33   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 86.6667	 TRAIN DATA 95.5882	NODES (path till leaf) 9
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 95.5882	NODES (path till leaf) 9
+
+------ Gen PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 95.5882	NODES (path till leaf) 9
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 95.5882	NODES (path till leaf) 3
+
+
+=========================================
+-------------OUTPUT : 6 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 46  Iris-virginica 44  Iris-versicolor 45   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = <=3.850000	petal_width	( Iris-versicolor 8  Iris-setosa 45   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 17   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 34   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 26   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 46  Iris-virginica 44   )	 = >3.850000	petal_width	( Iris-virginica 44  Iris-versicolor 37   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 39   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 14
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ Gen PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 11
+
+
+=========================================
+-------------OUTPUT : 7 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 47  Iris-virginica 40  Iris-versicolor 48   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = <=3.950000	petal_width	( Iris-versicolor 10  Iris-setosa 46   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 6   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 35   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 19   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 8   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 20   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 48  Iris-setosa 47  Iris-virginica 40   )	 = >3.950000	petal_width	( Iris-virginica 40  Iris-versicolor 38   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 35   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 14
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ Gen PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 10
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.1176	NODES (path till leaf) 11
+
+
+=========================================
+-------------OUTPUT : 8 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = >5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 9   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 9   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 45  Iris-virginica 45  Iris-versicolor 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = >6.650000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = >5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = >6.650000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = >0.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 5   )	 = >5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = >6.650000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = <=4.000000	petal_width	( Iris-setosa 44  Iris-versicolor 14   )	 = <=0.700000	Iris-setosa	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 12   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 9   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 9   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = <=1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = <=6.700000	petal_width	( Iris-virginica 1  Iris-versicolor 5   )	 = >1.600000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = <=1.750000	sepal_length	( Iris-virginica 5  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 3  Iris-versicolor 17   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 7   )	 = >6.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = <=6.650000	petal_width	( Iris-versicolor 1  Iris-virginica 22   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 45  Iris-setosa 45  Iris-virginica 45   )	 = >4.000000	petal_width	( Iris-versicolor 31  Iris-virginica 45   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 40   )	 = >6.650000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 93.3333	 TRAIN DATA 94.8529	NODES (path till leaf) 13
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.8529	NODES (path till leaf) 9
+
+------ Gen PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.8529	NODES (path till leaf) 9
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 93.3333	 TRAIN DATA 94.8529	NODES (path till leaf) 10
+
+
+=========================================
+-------------OUTPUT : 9 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = <=6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = <=1.450000	sepal_length	( Iris-virginica 1  Iris-versicolor 10   )	 = >6.550000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 10   )	 = <=6.450000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 10   )	 = <=6.450000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = >1.450000	sepal_length	( Iris-virginica 2  Iris-versicolor 10   )	 = >6.450000	Iris-versicolor	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 43  Iris-virginica 46  Iris-versicolor 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 42   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = <=5.950000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 32   )	 = >5.950000	petal_width	( Iris-virginica 3  Iris-versicolor 21   )	 = <=1.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = <=6.750000	petal_width	( Iris-versicolor 1  Iris-virginica 27   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 46  Iris-setosa 43  Iris-virginica 46   )	 = >3.950000	petal_width	( Iris-virginica 46  Iris-versicolor 35   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 42   )	 = >6.750000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 86.6667	 TRAIN DATA 94.1176	NODES (path till leaf) 11
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.1176	NODES (path till leaf) 7
+
+------ Gen PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.1176	NODES (path till leaf) 7
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.1176	NODES (path till leaf) 6
+
+
+=========================================
+-------------OUTPUT : 10 FOLD ---------------------------
+=========================================
+
+
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = <=6.450000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = >6.450000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = <=6.750000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = >6.750000	Iris-versicolor	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-setosa 45  Iris-virginica 47  Iris-versicolor 43   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.800000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.800000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = >0.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = <=1.550000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = >5.700000	petal_width	( Iris-virginica 1  Iris-versicolor 4   )	 = >1.550000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.800000	Iris-virginica	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = <=3.950000	petal_width	( Iris-versicolor 11  Iris-setosa 44   )	 = <=0.750000	Iris-setosa	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = <=1.400000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = <=6.050000	petal_width	( Iris-virginica 1  Iris-versicolor 16   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 6   )	 = <=5.700000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = <=6.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = <=1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 8   )	 = >6.450000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = <=6.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = <=1.750000	sepal_length	( Iris-virginica 4  Iris-versicolor 29   )	 = >6.050000	petal_width	( Iris-virginica 2  Iris-versicolor 13   )	 = >1.400000	sepal_length	( Iris-virginica 1  Iris-versicolor 4   )	 = >6.750000	Iris-versicolor	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = <=2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = <=6.800000	petal_width	( Iris-versicolor 1  Iris-virginica 29   )	 = >2.150000	Iris-virginica	
+petal_length	( Iris-versicolor 43  Iris-setosa 45  Iris-virginica 47   )	 = >3.950000	petal_width	( Iris-virginica 47  Iris-versicolor 32   )	 = >1.750000	sepal_length	( Iris-versicolor 1  Iris-virginica 43   )	 = >6.800000	Iris-virginica	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 86.6667	 TRAIN DATA 94.8529	NODES (path till leaf) 13
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.8529	NODES (path till leaf) 10
+
+------ Gen PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.8529	NODES (path till leaf) 10
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 86.6667	 TRAIN DATA 94.8529	NODES (path till leaf) 10
+
+================ FINAL RESULST (TEST DATA) ===============
+
+-------------------   Without Prunning  ----------------------
+
+Accuracy : 0.886667	Standard_Deviation : 0.0426875	Standard Error : 0.013499
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.860209	0.913125 ] 
+
+
+-------------------   Gen Prunning  ----------------------
+
+Accuracy : 0.886667	Standard_Deviation : 0.0426875	Standard Error : 0.013499
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.860209	0.913125 ] 
+
+
+-------------------   Reduced Error Prunning  ----------------------
+
+Accuracy : 0.886667	Standard_Deviation : 0.0426875	Standard Error : 0.013499
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.860209	0.913125 ] 
+
+
+-------------------   Error Complexity Prunning  ----------------------
+
+Accuracy : 0.886667	Standard_Deviation : 0.0426875	Standard Error : 0.013499
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.860209	0.913125 ] 
+

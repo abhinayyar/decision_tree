@@ -1,0 +1,944 @@
+
+
+=========================================
+-------------OUTPUT : 1 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = >45.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 5   )	 = <=41.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 5   )	 = >41.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = >7.000000	Age_of_patient	( 1 7  2 7   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = >7.000000	Age_of_patient	( 1 7  2 7   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = >7.000000	Age_of_patient	( 1 7  2 7   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 2 23  1 38   )	 = >7.000000	Age_of_patient	( 1 7  2 7   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = >12.500000	Patient's_year_of_operation	( 2 9  1 9   )	 = <=64.000000	Age_of_patient	( 2 4  1 5   )	 = <=44.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = >12.500000	Patient's_year_of_operation	( 2 9  1 9   )	 = <=64.000000	Age_of_patient	( 2 4  1 5   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = >12.500000	Patient's_year_of_operation	( 2 9  1 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 2 35  1 72   )	 = >12.500000	Patient's_year_of_operation	( 2 9  1 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 13   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 3  1 6   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 13   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 3  1 6   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 13   )	 = >7.500000	Age_of_patient	( 2 4  1 3   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 13   )	 = >7.500000	Age_of_patient	( 2 4  1 3   )	 = >63.000000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = >13.000000	Patient's_year_of_operation	( 1 2  2 5   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 19  1 21   )	 = >13.000000	Patient's_year_of_operation	( 1 2  2 5   )	 = >62.500000	2	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = <=26.000000	Age_of_patient	( 2 54  1 94   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 74  1 202   )	 = >26.000000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 60	 TRAIN DATA 59.9278	NODES (path till leaf) 23
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 2
+
+------ Gen PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 2
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 2
+
+
+=========================================
+-------------OUTPUT : 2 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 4   )	 = <=45.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 4   )	 = >45.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = >63.000000	Age_of_patient	( 2 3  1 2   )	 = <=42.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = >63.000000	Age_of_patient	( 2 3  1 2   )	 = >42.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = <=43.000000	Patient's_year_of_operation	( 1 5  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = <=43.000000	Patient's_year_of_operation	( 1 5  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = >43.000000	Patient's_year_of_operation	( 1 2  2 8   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = >43.000000	Patient's_year_of_operation	( 1 2  2 8   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = >5.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = >5.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = >7.500000	Age_of_patient	( 2 5  1 4   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = >7.500000	Age_of_patient	( 2 5  1 4   )	 = >63.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 4   )	 = <=45.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 2 1  1 4   )	 = >45.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = >63.000000	Age_of_patient	( 2 3  1 2   )	 = <=42.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 10  1 19   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 5   )	 = >63.000000	Age_of_patient	( 2 3  1 2   )	 = >42.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = <=43.000000	Patient's_year_of_operation	( 1 5  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = <=43.000000	Patient's_year_of_operation	( 1 5  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = >43.000000	Patient's_year_of_operation	( 1 2  2 8   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = <=53.500000	Number_of_positive_axillary_nodes	( 1 36  2 22   )	 = >7.500000	Age_of_patient	( 1 8  2 9   )	 = >43.000000	Patient's_year_of_operation	( 1 2  2 8   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = >5.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 8  1 11   )	 = >5.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = >7.500000	Age_of_patient	( 2 5  1 4   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = <=13.000000	Age_of_patient	( 1 55  2 36   )	 = >53.500000	Number_of_positive_axillary_nodes	( 2 14  1 18   )	 = >7.500000	Age_of_patient	( 2 5  1 4   )	 = >63.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 93  2 57   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 6   )	 = >64.000000	Age_of_patient	( 2 4  1 4   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 77  1 199   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 46.6667	 TRAIN DATA 50.1805	NODES (path till leaf) 24
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 53.4296	NODES (path till leaf) 8
+
+------ Gen PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 53.4296	NODES (path till leaf) 8
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 46.6667	 TRAIN DATA 50.1805	NODES (path till leaf) 22
+
+
+=========================================
+-------------OUTPUT : 3 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = >63.500000	Age_of_patient	( 2 4  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = >63.500000	Age_of_patient	( 2 4  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = >64.000000	Age_of_patient	( 2 3  1 3   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = >64.000000	Age_of_patient	( 2 3  1 3   )	 = >46.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = >7.500000	Age_of_patient	( 2 3  1 3   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = >7.500000	Age_of_patient	( 2 3  1 3   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = >63.500000	Age_of_patient	( 2 4  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 23   )	 = >5.000000	Patient's_year_of_operation	( 1 5  2 5   )	 = >63.500000	Age_of_patient	( 2 4  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = >64.000000	Age_of_patient	( 2 3  1 3   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 8   )	 = >64.000000	Age_of_patient	( 2 3  1 3   )	 = >46.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = >7.500000	Age_of_patient	( 2 3  1 3   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 14   )	 = >7.500000	Age_of_patient	( 2 3  1 3   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Age_of_patient	( 1 92  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 43.3333	 TRAIN DATA 51.9856	NODES (path till leaf) 26
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 56.3177	NODES (path till leaf) 3
+
+------ Gen PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 56.3177	NODES (path till leaf) 3
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 51.9856	NODES (path till leaf) 24
+
+
+=========================================
+-------------OUTPUT : 4 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = <=45.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 3   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 25   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 37   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 9  1 16   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 3   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = <=26.000000	Age_of_patient	( 1 98  2 55   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 25   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 76  1 200   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 26.6667	 TRAIN DATA 42.5993	NODES (path till leaf) 26
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 53.3333	 TRAIN DATA 56.6787	NODES (path till leaf) 3
+
+------ Gen PRUNNING ---
+ TEST DATA : 53.3333	 TRAIN DATA 56.6787	NODES (path till leaf) 3
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 40	 TRAIN DATA 52.7076	NODES (path till leaf) 24
+
+
+=========================================
+-------------OUTPUT : 5 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >64.000000	Age_of_patient	( 1 4  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >64.000000	Age_of_patient	( 1 4  2 2   )	 = >42.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 13  1 23   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.500000	Age_of_patient	( 1 6  2 10   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.500000	Age_of_patient	( 1 6  2 10   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.500000	Age_of_patient	( 1 6  2 10   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 8   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.500000	Age_of_patient	( 1 6  2 10   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 8   )	 = >62.000000	Age_of_patient	( 1 1  2 4   )	 = <=51.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 39  2 26   )	 = >7.500000	Age_of_patient	( 1 6  2 10   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 8   )	 = >62.000000	Age_of_patient	( 1 1  2 4   )	 = >51.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 7  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 2  1 7   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 7  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 2  1 7   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 7  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 7  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = <=47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = >47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = <=47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = >47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = <=47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = >47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = <=13.000000	Age_of_patient	( 1 55  2 33   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = <=47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = <=64.500000	Age_of_patient	( 2 3  1 2   )	 = >47.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = <=53.500000	Patient's_year_of_operation	( 1 3  2 6   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = <=26.000000	Number_of_positive_axillary_nodes	( 1 95  2 54   )	 = >13.000000	Age_of_patient	( 1 9  2 13   )	 = >53.500000	Patient's_year_of_operation	( 2 7  1 5   )	 = >63.500000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 73  1 203   )	 = >26.000000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 43.3333	 TRAIN DATA 55.2347	NODES (path till leaf) 22
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 8
+
+------ Gen PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 8
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 56.6667	 TRAIN DATA 57.4007	NODES (path till leaf) 8
+
+
+=========================================
+-------------OUTPUT : 6 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=62.500000	Age_of_patient	( 2 1  1 4   )	 = <=47.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=62.500000	Age_of_patient	( 2 1  1 4   )	 = >47.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >62.500000	Age_of_patient	( 1 6  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >62.500000	Age_of_patient	( 1 6  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=64.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >62.500000	Age_of_patient	( 1 6  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 4  2 4   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 4  2 4   )	 = >42.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 2   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 2   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = <=62.500000	Age_of_patient	( 2 1  1 4   )	 = <=47.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 10   )	 = >62.500000	Age_of_patient	( 1 6  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 7   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = <=12.000000	Number_of_positive_axillary_nodes	( 1 42  2 27   )	 = >7.000000	Age_of_patient	( 1 7  2 9   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 4  2 4   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 4  2 4   )	 = >42.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 73  2 38   )	 = >12.000000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 7   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 15   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 2   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 98  2 56   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >13.000000	Patient's_year_of_operation	( 2 4  1 2   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 50	 TRAIN DATA 51.9856	NODES (path till leaf) 25
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 58.8448	NODES (path till leaf) 3
+
+------ Gen PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 58.8448	NODES (path till leaf) 3
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 50	 TRAIN DATA 51.9856	NODES (path till leaf) 22
+
+
+=========================================
+-------------OUTPUT : 7 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = >45.500000	Patient's_year_of_operation	( 2 1  1 4   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = <=43.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = <=43.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = >43.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = >43.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = >61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 2  2 3   )	 = <=46.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 2  2 3   )	 = >46.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = >26.000000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = <=63.000000	Age_of_patient	( 2 1  1 6   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 11   )	 = >63.000000	Age_of_patient	( 1 5  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 24   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = <=43.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = <=64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = <=43.500000	Patient's_year_of_operation	( 1 4  2 1   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = >43.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 39  2 23   )	 = >7.000000	Age_of_patient	( 1 6  2 8   )	 = >43.500000	Patient's_year_of_operation	( 1 1  2 7   )	 = >61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=61.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = <=44.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >61.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 5   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 2  2 3   )	 = <=46.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 71  2 34   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 9   )	 = >64.000000	Age_of_patient	( 1 2  2 3   )	 = >46.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = <=5.000000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 4  1 8   )	 = >5.000000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 10  1 14   )	 = >7.500000	Age_of_patient	( 2 4  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = <=26.000000	Age_of_patient	( 1 93  2 54   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 20  1 21   )	 = >13.000000	Patient's_year_of_operation	( 2 5  1 3   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 75  1 201   )	 = >26.000000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 43.3333	 TRAIN DATA 54.5126	NODES (path till leaf) 25
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 50	 TRAIN DATA 58.1227	NODES (path till leaf) 2
+
+------ Gen PRUNNING ---
+ TEST DATA : 50	 TRAIN DATA 58.1227	NODES (path till leaf) 2
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 43.3333	 TRAIN DATA 54.5126	NODES (path till leaf) 23
+
+
+=========================================
+-------------OUTPUT : 8 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = <=63.000000	Age_of_patient	( 2 1  1 5   )	 = >45.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 1   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 10   )	 = >63.000000	Age_of_patient	( 1 5  2 1   )	 = >42.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 13  1 22   )	 = >5.000000	Patient's_year_of_operation	( 2 4  1 6   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = >7.000000	Age_of_patient	( 1 7  2 6   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = >7.000000	Age_of_patient	( 1 7  2 6   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = >7.000000	Age_of_patient	( 1 7  2 6   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 4   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 40  2 22   )	 = >7.000000	Age_of_patient	( 1 7  2 6   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 4   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 8  1 16   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 8  1 16   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 8  1 16   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = >67.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 8  1 16   )	 = >5.500000	Age_of_patient	( 2 2  1 6   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 8  1 16   )	 = >5.500000	Age_of_patient	( 2 2  1 6   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = <=43.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = >43.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = <=43.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = >43.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = <=43.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = >43.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = <=12.000000	Age_of_patient	( 1 57  2 30   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = <=43.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = <=64.000000	Age_of_patient	( 1 3  2 4   )	 = >43.500000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = <=52.500000	Patient's_year_of_operation	( 1 5  2 7   )	 = >64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = <=64.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = <=23.000000	Number_of_positive_axillary_nodes	( 1 97  2 51   )	 = >12.000000	Age_of_patient	( 1 10  2 15   )	 = >52.500000	Patient's_year_of_operation	( 2 8  1 4   )	 = >64.000000	Age_of_patient	( 2 4  1 3   )	 = >62.000000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = <=62.500000	1	
+Number_of_positive_axillary_nodes	( 2 69  1 207   )	 = >23.000000	Patient's_year_of_operation	( 2 2  1 4   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 63.3333	 TRAIN DATA 72.9242	NODES (path till leaf) 24
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 60	 TRAIN DATA 72.2022	NODES (path till leaf) 9
+
+------ Gen PRUNNING ---
+ TEST DATA : 60	 TRAIN DATA 72.2022	NODES (path till leaf) 9
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 60	 TRAIN DATA 72.2022	NODES (path till leaf) 9
+
+
+=========================================
+-------------OUTPUT : 9 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 8   )	 = <=63.000000	Age_of_patient	( 2 1  1 4   )	 = <=47.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 8   )	 = <=63.000000	Age_of_patient	( 2 1  1 4   )	 = >47.000000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 8   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 4  1 8   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = >42.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = <=44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 15  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 5  1 6   )	 = >64.000000	Age_of_patient	( 2 3  1 2   )	 = >44.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = <=44.500000	Patient's_year_of_operation	( 1 4  2 2   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 38  2 24   )	 = >7.000000	Age_of_patient	( 1 7  2 8   )	 = >44.500000	Patient's_year_of_operation	( 1 2  2 6   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = <=44.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = <=64.000000	Age_of_patient	( 1 5  2 4   )	 = >44.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = <=46.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 70  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 9  2 9   )	 = >64.000000	Age_of_patient	( 1 3  2 4   )	 = >46.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 8  1 13   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 3  1 6   )	 = <=4.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 8  1 13   )	 = <=7.500000	Number_of_positive_axillary_nodes	( 2 3  1 6   )	 = >4.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 8  1 13   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = <=63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = <=13.000000	Number_of_positive_axillary_nodes	( 2 8  1 13   )	 = >7.500000	Age_of_patient	( 2 3  1 4   )	 = >63.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = >13.000000	Patient's_year_of_operation	( 2 3  1 3   )	 = <=63.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 16  1 22   )	 = >13.000000	Patient's_year_of_operation	( 2 3  1 3   )	 = >63.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = <=26.000000	Age_of_patient	( 1 94  2 51   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 71  1 205   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 70	 TRAIN DATA 77.6173	NODES (path till leaf) 24
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 66.6667	 TRAIN DATA 75.0903	NODES (path till leaf) 3
+
+------ Gen PRUNNING ---
+ TEST DATA : 66.6667	 TRAIN DATA 75.0903	NODES (path till leaf) 3
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 66.6667	 TRAIN DATA 75.0903	NODES (path till leaf) 3
+
+
+=========================================
+-------------OUTPUT : 10 FOLD ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = <=42.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = <=66.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = >42.500000	Patient's_year_of_operation	( 1 3  2 2   )	 = >66.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=45.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >45.000000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >45.000000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = <=64.000000	Age_of_patient	( 1 4  2 5   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = <=64.000000	Age_of_patient	( 1 4  2 5   )	 = >45.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = >64.000000	Age_of_patient	( 1 3  2 2   )	 = <=49.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = >64.000000	Age_of_patient	( 1 3  2 2   )	 = >49.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = >67.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = >5.500000	Age_of_patient	( 2 2  1 5   )	 = <=64.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = >5.500000	Age_of_patient	( 2 2  1 5   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >11.500000	Patient's_year_of_operation	( 2 6  1 2   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >11.500000	Patient's_year_of_operation	( 2 6  1 2   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+
+
+=========================================
+------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------
+=========================================
+
+
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = <=63.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = <=5.000000	Patient's_year_of_operation	( 2 3  1 9   )	 = >63.000000	Age_of_patient	( 1 4  2 2   )	 = <=42.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = <=49.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = <=64.000000	Age_of_patient	( 2 2  1 3   )	 = >49.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = <=7.000000	Number_of_positive_axillary_nodes	( 2 12  1 21   )	 = >5.000000	Patient's_year_of_operation	( 2 3  1 7   )	 = >64.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = <=45.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >45.000000	Patient's_year_of_operation	( 1 2  2 7   )	 = <=62.000000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = <=12.500000	Number_of_positive_axillary_nodes	( 1 37  2 24   )	 = >7.000000	Age_of_patient	( 1 5  2 9   )	 = >45.000000	Patient's_year_of_operation	( 1 2  2 7   )	 = >62.000000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = <=64.000000	Age_of_patient	( 1 4  2 5   )	 = <=45.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = <=64.000000	Age_of_patient	( 1 4  2 5   )	 = >45.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = >64.000000	Age_of_patient	( 1 3  2 2   )	 = <=49.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = <=56.500000	Number_of_positive_axillary_nodes	( 1 67  2 35   )	 = >12.500000	Patient's_year_of_operation	( 1 8  2 8   )	 = >64.000000	Age_of_patient	( 1 3  2 2   )	 = >49.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = <=67.000000	Patient's_year_of_operation	( 2 1  1 4   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = <=5.500000	Age_of_patient	( 2 4  1 6   )	 = >67.000000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = >5.500000	Age_of_patient	( 2 2  1 5   )	 = <=64.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = <=11.500000	Number_of_positive_axillary_nodes	( 2 8  1 15   )	 = >5.500000	Age_of_patient	( 2 2  1 5   )	 = >64.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >11.500000	Patient's_year_of_operation	( 2 6  1 2   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = <=26.000000	Age_of_patient	( 1 92  2 53   )	 = >56.500000	Number_of_positive_axillary_nodes	( 2 18  1 23   )	 = >11.500000	Patient's_year_of_operation	( 2 6  1 2   )	 = >62.500000	1	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = <=62.500000	2	
+Number_of_positive_axillary_nodes	( 2 72  1 204   )	 = >26.000000	Patient's_year_of_operation	( 2 2  1 3   )	 = >62.500000	1	
+==============================================
+--------------- RESULTS ----------------------
+==============================================
+
+----- UN PRUNNED --------
+ TEST DATA : 73.3333	 TRAIN DATA 69.3141	NODES (path till leaf) 23
+
+------ REDUCED ERROR PRUNNING ---
+ TEST DATA : 70	 TRAIN DATA 69.6751	NODES (path till leaf) 3
+
+------ Gen PRUNNING ---
+ TEST DATA : 70	 TRAIN DATA 69.6751	NODES (path till leaf) 3
+
+------ ERROR COMPLEXITY PRUNNING ---
+ TEST DATA : 76.6667	 TRAIN DATA 72.2022	NODES (path till leaf) 21
+
+================ FINAL RESULST (TEST DATA) ===============
+
+-------------------   Without Prunning  ----------------------
+
+Accuracy : 0.52	Standard_Deviation : 0.136789	Standard Error : 0.0432563
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.435218	0.604782 ] 
+
+
+-------------------   Gen Prunning  ----------------------
+
+Accuracy : 0.556667	Standard_Deviation : 0.0830663	Standard Error : 0.0262679
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.505182	0.608152 ] 
+
+
+-------------------   Reduced Error Prunning  ----------------------
+
+Accuracy : 0.556667	Standard_Deviation : 0.0830663	Standard Error : 0.0262679
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.505182	0.608152 ] 
+
+
+-------------------   Error Complexity Prunning  ----------------------
+
+Accuracy : 0.54	Standard_Deviation : 0.110353	Standard Error : 0.0348967
+Confidence Interval (Accracy +- 1.96 * SE) :	[ 0.471602	0.608397 ] 
+

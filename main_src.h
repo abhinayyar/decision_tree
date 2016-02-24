@@ -25,19 +25,25 @@ int get_attribute_co(vector<string> lc_att,string split_attribute);
 float get_entropy_overall(vector<pair<vector<string>,string> >& input_data);
 void display_att_listing(unordered_map<string,Attribute_feature*> attributes);
 void display_stack_contents(vector<string> stack);
-void display_tree(Tries *root,vector<string> stack,int i,int j);
+void display_tree(Tries *root,vector<string> stack,int& i,int j);
 void get_mid_value(vector<pair<vector<string>,string> > input_data,string split_attribute,float& start,float& end);
 vector<pair<vector<string>,string> > refine_data_cont(vector<pair<vector<string>,string> >& input_data,string split_attribute,float start,float end);
 int get_value_index(Tries *root,string value);
 int get_cont_value_index(Tries *root,string value);
 int check_each_data(Tries *root,pair<vector<string>,string> t_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
-int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes);
+int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes,int index);
 void display_refine_data(vector<pair<vector<string>,string> > input_data);
 
-void me_prune_tree(Tries *root);
-float check_each_node(Tries *root,float prev_total);
+vector<pair<Tries*,float> >  me_prune_tree(Tries *root);
+float check_each_node(Tries *root,float prev_total,vector<pair<Tries*,float> >& stack);
 unordered_map<string,int>  get_class_pair_cont(vector<pair<vector<string>,string> >& input_data,float mid);
 void ec_prune_tree(Tries *root,float test_size);
 float node_check(Tries *root,float test_size,vector<pair<vector<Tries*>,float> >& p_tr,vector<Tries*>& stack);
+void prune_now(Tries *root,Tries *target);
+Tries* get_node(vector<pair<Tries*,float> > stack,float& cur_val);
+
+float check_gen_each_node(Tries *root,float prev_total);
+void gen_prunning(Tries *root);
+Tries* copy_tree(Tries *root);
 
 #endif

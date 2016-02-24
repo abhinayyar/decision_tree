@@ -16,6 +16,7 @@ class Tries
 	bool is_end;
 	int num_leaves;
 	float total_v;
+	bool is_cont;
 	// number of values corresponding to each class variable
 	unordered_map<string,int> class_pair;
 
@@ -33,6 +34,7 @@ class Tries
 		is_end=false;
 		num_leaves=0;
 		total_v=0;
+		is_cont=false;
 	}
 
 	~Tries()

@@ -6,7 +6,7 @@
 using namespace std;
 
 #define LIMIT 5
-//#define CLASS_LABEL 0
+#define CLASS_LABEL 0
 
 int main(int argv,char *argc[])
 {
@@ -22,16 +22,19 @@ int main(int argv,char *argc[])
 	bool is_target_front=false;
 	Tries *root;
 	int data_size=0;
-	int pass_count=0,leaf=0;
+	int pass_count_test=0,pass_count_train=0,leaf=0;
+	
+	vector<vector<pair<vector<string>,string> > > test_data(10);
 	vector<pair<vector<string>,string> > input_data;
-	vector<pair<vector<string>,string> > test_data;
+	vector<vector<pair<vector<string>,string> > > train_data(10);
 	unordered_map<string,Attribute_feature*> attributes;
 	vector<string> target_values;
 	vector<string> a_list;
 	vector<pair<string,bool> > is_cont;
 
 	is_target_front=read_control_file(argc[1],a_list,is_cont,data_size);
-	read_data_file(argc[2],input_data,is_target_front,attributes,a_list,target_values,test_data,data_size);	
+
+	read_data_file(argc[2],input_data,is_target_front,attributes,a_list,target_values,data_size,0);	
 
 	/* target value in front = true else false */
 
@@ -44,93 +47,357 @@ int main(int argv,char *argc[])
 	// flll missing value data 
 
 	//display_refine_data(input_data);
+	//cout<<"================\n";
+	//display_refine_data(test_data);
 	//cout<<"\n====\n";
 	pre_process_data(input_data);
 
 	//display_refine_data(input_data);
 	//display_att_listing(attributes);
 
-	root=form_decision_tree(input_data,attributes,target_values,leaf);
+
+	// 10 fold testing
+	/* 1 fold for testing and 9 fold for construction */
+
+	divide_data(test_data,input_data,train_data);
+	vector<vector<float> > error_rate(4,vector<float>(test_data.size()));
+
+	for(int i=0;i<test_data.size();i++)
+	{
+		if(test_data[i].size()==0) continue;
+
+		//display_refine_data(test_data[i]);
+		//cout<<"------------------------\n";
+		//display_refine_data(train_data[i]);
+		//cout<<"=========================\n";
+	
+
+		root=form_decision_tree(train_data[i],attributes,target_values,leaf);
+
+		Tries *prune1 = copy_tree(root);
+		Tries *prune2 = copy_tree(root);
+		Tries *prune3 = copy_tree(root);
+		Tries *prune4 = copy_tree(root);
+
+		/* Display Tree */
+
+		cout<<"\n";
+		cout<<"\n";
+		cout<<"=========================================\n";
+		cout<<"-------------"<<"OUTPUT : "<< i+1 <<" FOLD "<<"---------------------------\n";
+		cout<<"=========================================\n";
+		cout<<"\n";
+		cout<<"\n";
+
+		vector<string> stack;
+		int count_un=0;
+		display_tree(root,stack,count_un,0);
+
+		//cout<<"==== copy ====\n";
+		//count_un=0;
+		//display_tree(prune1,stack,count_un,0);
 
 
-	/* Display Tree */
+		/* test the accuracy of decision tree */	
+		pass_count_test=test_decision_tree(root,test_data[i],a_list,attributes,0);
+		pass_count_train=test_decision_tree(root,train_data[i],a_list,attributes,1);
+		//cout<<"======== PASS COUNT ========\n";
+		//cout<<pass_count<<"\n";	
+		float per_test_un=((float)pass_count_test/(float)test_data[i].size())*100;
+		float per_train_un=((float)pass_count_train/(float)train_data[i].size())*100;
+
+		error_rate[0][i]=(per_test_un/100);
+			
+
+
+		// prune tree minimum error prunning , all class attributes are equally likely
+
+		bool should_continue=true;
+
+		float prev_val=INT_MAX,cur_val=0;
+		
+		while(should_continue)
+		{
+			vector<pair<Tries*,float> > pt = me_prune_tree(prune1);
+
+			if(pt.size()==0) break;
+
+			Tries *prune = get_node(pt,cur_val);
+
+			if(cur_val>=prev_val)
+			{
+				should_continue=false;
+			}
+			//cout<<cur_val<<"\n";
+			prev_val=cur_val;
+			prune_now(prune1,prune);
+		}
+		
+		// diplay prune tree
+
+
+
+		cout<<"\n";
+		cout<<"\n";
+		cout<<"=========================================\n";
+		cout<<"------------- PRUNNED OUTPUT (Gen Prunning ) ---------------------------\n";
+		cout<<"=========================================\n";
+		cout<<"\n";
+		cout<<"\n";
+
+		vector<string> stack_prune;
+		int count_p=0;
+		display_tree(prune1,stack_prune,count_p,0);
+
+
+		/* test the accuracy of prunned decision tree */	
+		pass_count_train=test_decision_tree(prune1,train_data[i],a_list,attributes,1);
+		pass_count_test=test_decision_tree(prune1,test_data[i],a_list,attributes,0);
+		//cout<<"======== PASS COUNT ========\n";
+		//cout<<pass_count<<"\n";	
+		float per_pur_test=((float)pass_count_test/(float)test_data[i].size())*100;
+		float per_pur_train=((float)pass_count_train/(float)train_data[i].size())*100;
+		
+		error_rate[1][i]=(per_pur_test/100);
+
+		// genric pruning approach
+
+		gen_prunning(prune2);
+
+		cout<<"\n";
+		cout<<"\n";
+		cout<<"=========================================\n";
+		cout<<"------------- PRUNNED OUTPUT (Minimun Error Prunning ) ---------------------------\n";
+		cout<<"=========================================\n";
+		cout<<"\n";
+		cout<<"\n";
+
+		vector<string> stack_prune_gen;
+		int count_gen=0;
+		display_tree(prune2,stack_prune_gen,count_gen,0);
+
+
+		/* test the accuracy of prunned decision tree */	
+		pass_count_train=test_decision_tree(prune2,train_data[i],a_list,attributes,1);
+		pass_count_test=test_decision_tree(prune2,test_data[i],a_list,attributes,0);
+		//cout<<"======== PASS COUNT ========\n";
+		//cout<<pass_count<<"\n";	
+		float per_gen_train=((float)pass_count_train/(float)train_data[i].size())*100;
+		float per_gen_test=((float)pass_count_test/(float)test_data[i].size())*100;
+		
+
+		error_rate[2][i]=(per_gen_test/100);
+		// error complexity pruning , all class attributes are not equally likely
+
+		ec_prune_tree(prune3,train_data[i].size());
+
+
+		
+
+		/* test the accuracy of prunned decision tree */	
+		pass_count_train=test_decision_tree(prune3,train_data[i],a_list,attributes,1);
+
+
+		ec_prune_tree(prune4,test_data[i].size());
+
+		pass_count_test=test_decision_tree(prune4,test_data[i],a_list,attributes,0);
+
+
+		cout<<"\n";
+		cout<<"\n";
+		cout<<"=========================================\n";
+		cout<<"------------- PRUNNED OUTPUT (Error complexity Prunning)---------------------------\n";
+		cout<<"=========================================\n";
+		cout<<"\n";
+		cout<<"\n";
+
+		vector<string> stack_prune_ec;
+		int count_e=0;
+		display_tree(prune3,stack_prune_ec,count_e,0);
+
+		
+		//cout<<"======== PASS COUNT ========\n";
+		//cout<<pass_count<<"\n";	
+		float per_ec_train=((float)pass_count_train/(float)train_data[i].size())*100;
+		float per_ec_test=((float)pass_count_test/(float)test_data[i].size())*100;
+		
+
+		error_rate[3][i]=(per_ec_test/100);
+
+		cout<<"Output :==============================================\n";
+		cout<<"Output :--------------- RESULTS ----------------------\n";
+		cout<<"Output :==============================================\n";
+
+		cout<<"Output :\n";
+		cout<<"Output :----- UN PRUNNED --------\n";
+		cout<<"Output : TEST DATA : "<<per_test_un<<"\t"<<" TRAIN DATA "<<per_train_un<<"\t"<<"NODES (path till leaf) "<<count_un<<"\n";
+		cout<<"Output :\n";
+		cout<<"Output :------ REDUCED ERROR PRUNNING ---\n";
+		cout<<"Output : TEST DATA : "<<per_pur_test<<"\t"<<" TRAIN DATA "<<per_pur_train<<"\t"<<"NODES (path till leaf) "<<count_p<<"\n";
+		cout<<"Output :\n";
+		cout<<"Output :------ Gen PRUNNING ---\n";
+		cout<<"Output : TEST DATA : "<<per_gen_test<<"\t"<<" TRAIN DATA "<<per_gen_train<<"\t"<<"NODES (path till leaf) "<<count_gen<<"\n";
+		cout<<"Output :\n";
+		cout<<"Output :------ ERROR COMPLEXITY PRUNNING ---\n";
+		cout<<"Output : TEST DATA : "<<per_ec_test<<"\t"<<" TRAIN DATA "<<per_ec_train<<"\t"<<"NODES (path till leaf) "<<count_e<<"\n";
+	}
+
+	vector<float> mue(4,0);
+	vector<float> standard_deviation(4,0);
+	vector<float> standard_error(4,0);
+	vector<float> ci1(4,0);
+	vector<float> ci2(4,0);
+
+
+	vector<string> na;
+	na.push_back("Without Prunning");
+	na.push_back("Gen Prunning");
+	na.push_back("Reduced Error Prunning");
+	na.push_back("Error Complexity Prunning");
 
 	cout<<"\n";
-	cout<<"\n";
-	cout<<"=========================================\n";
-	cout<<"-------------OUTPUT---------------------------\n";
-	cout<<"=========================================\n";
-	cout<<"\n";
-	cout<<"\n";
+	cout<<"Output :================ FINAL RESULST (TEST DATA) ===============\n";
+	for(int j=0;j<4;j++)
+	{
 
-	vector<string> stack;
-	display_tree(root,stack,0,0);
+		for(int i=0;i<error_rate[j].size();i++)
+		{
+			mue[j]+=error_rate[j][i];
+		}
+		mue[j]=mue[j]/10;
 
-	/* test the accuracy of decision tree */	
-	pass_count=test_decision_tree(root,test_data,a_list,attributes);
-	//cout<<"======== PASS COUNT ========\n";
-	//cout<<pass_count<<"\n";	
-	float per=((float)pass_count/(float)test_data.size())*100;
-	cout<<"\n";
-	cout<<"========PERCENTAGE PASS========\n";
-	cout<<per<<"\n";	
+		for(int i=0;i<error_rate[j].size();i++)
+		{
+			standard_deviation[j]+=(pow((error_rate[j][i]-mue[j]),2));
+		}
+		standard_deviation[j]=standard_deviation[j]/10;
+		standard_deviation[j]=sqrt(standard_deviation[j]);
 
+		standard_error[j]=standard_deviation[j]/sqrt(10);
 
-	// prune tree minimum error prunning , all class attributes are equally likely
-
-	me_prune_tree(root);
-
-	// diplay prune tree
-
-	cout<<"\n";
-	cout<<"\n";
-	cout<<"=========================================\n";
-	cout<<"------------- PRUNNED OUTPUT (Minimun Error Prunning )---------------------------\n";
-	cout<<"=========================================\n";
-	cout<<"\n";
-	cout<<"\n";
-
-	vector<string> stack_prune;
-	display_tree(root,stack_prune,0,0);
-
-	/* test the accuracy of prunned decision tree */	
-	pass_count=test_decision_tree(root,test_data,a_list,attributes);
-	//cout<<"======== PASS COUNT ========\n";
-	//cout<<pass_count<<"\n";	
-	float per_pur=((float)pass_count/(float)test_data.size())*100;
-	cout<<"\n";
-	cout<<"========PERCENTAGE PASS========\n";
-	cout<<per_pur<<"\n";
+		ci1[j]=mue[j]-(1.96*standard_error[j]);
+		ci2[j]=mue[j]+(1.96*standard_error[j]);
 
 
-	// error complexity pruning , all class attributes are not equally likely
-
-	ec_prune_tree(root,test_data.size());
-
-
-	cout<<"\n";
-	cout<<"\n";
-	cout<<"=========================================\n";
-	cout<<"------------- PRUNNED OUTPUT (Error complexity Prunning )---------------------------\n";
-	cout<<"=========================================\n";
-	cout<<"\n";
-	cout<<"\n";
-
-	vector<string> stack_prune_ec;
-	display_tree(root,stack_prune_ec,0,0);
-
-	/* test the accuracy of prunned decision tree */	
-	pass_count=test_decision_tree(root,test_data,a_list,attributes);
-	//cout<<"======== PASS COUNT ========\n";
-	//cout<<pass_count<<"\n";	
-	float per_pur_ec=((float)pass_count/(float)test_data.size())*100;
-	cout<<"\n";
-	cout<<"========PERCENTAGE PASS========\n";
-	cout<<per_pur_ec<<"\n";
+		cout<<"\n";
+		cout<<"Output :-------------------   "<<na[j]<<"  ----------------------\n";
+		cout<<"\n";
+		cout<<"Output :Accuracy : "<<mue[j]<<"\t"<<"Standard_Deviation : "<<standard_deviation[j]<<"\t"<<"Standard Error : "<<standard_error[j]<<"\n";
+		cout<<"Output :Confidence Interval (Accracy +- 1.96 * SE) :\t"<<"[ "<<ci1[j]<<"\t"<<ci2[j]<<" ] \n";
+		cout<<"Output :\n";
+	}
 
 	return 0;
 }
 
+/* copy tree to check for prunning in other case */
+
+Tries* copy_tree(Tries *root)
+{
+	if(!root) return NULL;
+
+	vector<string> tmp;
+
+	for(pair<Tries*,string> p : root->value)
+	{
+		tmp.push_back(p.second);
+	}
+	Tries *node=new Tries(tmp,root->attribute_name);
+	node->class_pair=root->class_pair;
+	node->is_cont=root->is_cont;
+	node->is_end=root->is_end;
+	node->num_leaves=root->num_leaves;
+	node->total_v=root->total_v;
+
+	for(int i=0;i<node->value.size();i++)
+	{
+		node->value[i].first=copy_tree(root->value[i].first);
+	}
+	return node;
+}
+/* generic prunning */
+
+void gen_prunning(Tries *root)
+{
+
+	float target=0;
+	float prev_total=0;
+
+	for(pair<string,int> p : root->class_pair)
+	{
+		prev_total+=p.second;
+	}
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		target+=check_gen_each_node(root->value[i].first,prev_total);
+	}
+
+	
+}
+/* function for actual tree prunning */
+
+void prune_now(Tries *root,Tries *target)
+{
+	if(!root || root->value.size()==0) return;
+
+	float majority=INT_MIN;
+	string maj_name;
+	if(root==target)
+	{
+
+		for(pair<string,int> p : root->class_pair)
+		{
+		
+
+			if(majority<p.second)
+			{
+				majority=p.second;
+				maj_name.assign(p.first);
+			}
+		}
+
+		while(root->value.size()>1)
+		{
+			//delete root->value.back().first;
+			root->value.pop_back();
+		}
+
+		//cout<<"ACT PRUNNING\n";
+		Tries *end_node= new Tries(vector<string>(),maj_name);
+		end_node->is_end=true;
+		root->value[0].first=end_node;
+
+		
+	}
+	else
+	{
+		for(int i=0;i<root->value.size();i++)
+		{
+			prune_now(root->value[i].first,target);
+		}
+	}
+}
+/* function to get node to prune */
+
+Tries* get_node(vector<pair<Tries*,float> > stack,float& cur_val)
+{
+
+	float min_v=INT_MAX;
+	Tries *rt;
+	for(pair<Tries*,float> p : stack)
+	{
+		if(p.second<min_v)
+		{
+			cur_val=p.second;
+			min_v=p.second;
+			rt=p.first;
+		}
+	}
+
+	//cout<<rt->attribute_name<<"\n";
+	return rt;
+}
 /* function to cal for each node */
 float node_check(Tries *root,float test_size,vector<pair<vector<Tries*>,float> >& p_tr,vector<Tries*>& stack)
 {
@@ -255,9 +522,10 @@ void ec_prune_tree(Tries *root,float test_size)
 
 	final_prune(root,res);
 }
-/* function to check prunning per node */
 
-float check_each_node(Tries *root,float prev_total)
+/* function to check gen prunning for each node */
+
+float check_gen_each_node(Tries *root,float prev_total)
 {
 
 
@@ -283,7 +551,7 @@ float check_each_node(Tries *root,float prev_total)
 
 	for(int i=0;i<root->value.size();i++)
 	{
-		target+=check_each_node(root->value[i].first,total_v);
+		target+=check_gen_each_node(root->value[i].first,total_v);
 	}
 
 
@@ -296,7 +564,8 @@ float check_each_node(Tries *root,float prev_total)
 
 	if(prunning_value<target)
 	{
-		// we must prune the tree;
+		// we must prune the tree
+		
 
 		while(root->value.size()>1)
 		{
@@ -312,9 +581,69 @@ float check_each_node(Tries *root,float prev_total)
 	return (total_v/prev_total)*prunning_value;
 
 }
+/* function to check prunning per node */
+
+float check_each_node(Tries *root,float prev_total,vector<pair<Tries*,float> >& stack)
+{
+
+
+	if(!root || root->value.size()==0) return 0;
+
+	// value corresponding to not pruning sub tree
+	float target=0;
+
+
+	float total_v=0,majority=INT_MIN,class_nu=root->class_pair.size();
+	string maj_name;
+
+	for(pair<string,int> p : root->class_pair)
+	{
+		total_v+=p.second;
+
+		if(majority<p.second)
+		{
+			majority=p.second;
+			maj_name.assign(p.first);
+		}
+	}
+
+	for(int i=0;i<root->value.size();i++)
+	{
+		target+=check_each_node(root->value[i].first,total_v,stack);
+	}
+
+
+	// value corresponding to prunning 
+
+	float prunning_value=0;
+
+
+	prunning_value=(total_v - majority + class_nu -1)/(total_v+class_nu);
+
+	if(prunning_value<target)
+	{
+		// we must prune the tree;
+		stack.push_back(make_pair(root,prunning_value));
+		/*
+
+		while(root->value.size()>1)
+		{
+			//delete root->value.back().first;
+			root->value.pop_back();
+		}
+
+		Tries *end_node= new Tries(vector<string>(),maj_name);
+		end_node->is_end=true;
+		root->value[0].first=end_node;
+		*/
+	}
+
+	return (total_v/prev_total)*prunning_value;
+
+}
 /* function to prune decision tree */
 
-void me_prune_tree(Tries *root)
+vector<pair<Tries*,float> >  me_prune_tree(Tries *root)
 {
 
 	// we can cannot prune root
@@ -324,6 +653,7 @@ void me_prune_tree(Tries *root)
 	float target=0;
 
 	float prev_total=0;
+	vector<pair<Tries*,float> > stack;
 
 	for(pair<string,int> p : root->class_pair)
 	{
@@ -332,16 +662,18 @@ void me_prune_tree(Tries *root)
 
 	for(int i=0;i<root->value.size();i++)
 	{
-		target+=check_each_node(root->value[i].first,prev_total);
+		target+=check_each_node(root->value[i].first,prev_total,stack);
 	}
 
 	// we need not to prune root so no need to compare target
+
+	return stack;
 }
 /* function to test accuracy of decision tree */
-int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes)
+int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes,int index)
 {
 	int pass_count=0;
-	for(int i=0;i<test_data.size();i++)
+	for(int i=1;i<test_data.size();i++)
 	{
 		pass_count+=check_each_data(root,test_data[i],a_list,attributes);
 	}
@@ -351,6 +683,7 @@ int test_decision_tree(Tries *root,vector<pair<vector<string>,string> > test_dat
 /* test for each data */
 int check_each_data(Tries *root,pair<vector<string>,string> t_data,vector<string> a_list,unordered_map<string,Attribute_feature*> attributes)
 {
+	if(!root) return 0;
 	int get_attribute_colm=get_attribute_co(a_list,root->attribute_name);
 	//cout<<root->attribute_name<<"\n";
 	if(get_attribute_colm!=-1)
@@ -396,6 +729,7 @@ int get_cont_value_index(Tries *root,string value)
 	float left_value=stof(value);
 	float act_value=stof(left);
 
+	//cout<<left<<"\t"<<right<<"\n";
 	if(left_value<=act_value)
 		return 0;
 	else
@@ -446,7 +780,7 @@ void display_att_listing(unordered_map<string,Attribute_feature*> attributes)
 }
 /* function to display tree structure */
 
-void display_tree(Tries *root,vector<string> stack,int i,int j)
+void display_tree(Tries *root,vector<string> stack,int& count,int j)
 {
 	// display complete tree from root to leaf node
 
@@ -472,9 +806,10 @@ void display_tree(Tries *root,vector<string> stack,int i,int j)
 		if(root!=NULL)
 			stack.push_back(root->attribute_name);
 		display_stack_contents(stack);
+		count=count+1;
 		return;
 	}
-
+	
 	string att;
 
 	stack.push_back(root->attribute_name);
@@ -483,13 +818,15 @@ void display_tree(Tries *root,vector<string> stack,int i,int j)
 	// define class label if you want to test class labels
 	
 #ifdef CLASS_LABEL
-	string sub="( ";
-	for(pair<string,int> p : root->class_pair)
-	{
-		sub+=to_string(p.second)+"  ";
-	}
-	sub+=" )";
-	stack.push_back(sub);
+	
+		string sub="( ";
+		for(pair<string,int> p : root->class_pair)
+		{
+			sub=sub+p.first+" "+to_string(p.second)+"  ";
+		}
+		sub+=" )";
+		stack.push_back(sub);
+	
 #endif
 
 #ifdef DISLEAF
@@ -503,7 +840,7 @@ void display_tree(Tries *root,vector<string> stack,int i,int j)
 	{
 		att.assign(" = "+root->value[i].second);
 		stack.push_back(att);
-		display_tree(root->value[i].first,stack,i,j);
+		display_tree(root->value[i].first,stack,count,j);
 		stack.pop_back();
 	}
 
@@ -642,6 +979,7 @@ unordered_map<string,int>  get_class_pair(vector<pair<vector<string>,string> >& 
 
 	for(pair<vector<string>,string> p : input_data)
 	{
+		if(p.second.compare("Attribute_List")==0) continue;
 		if(lc_pair.find(p.second)==lc_pair.end())
 		{
 			lc_pair.insert(make_pair(p.second,1));
@@ -669,6 +1007,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 
 	if(input_data.size()<=LIMIT)
 	{
+		// BIAS FOR INDUCTION TREE
 		//Tries *node = new Tries(vector<string>(),"Majority value");
 		string majority_value=get_majority_target(input_data);
 		if(majority_value.empty()==false)
@@ -720,6 +1059,7 @@ Tries* form_decision_tree(vector<pair<vector<string>,string> >& input_data,unord
 			temp.push_back(tt);
 
 			Tries *node = new Tries(temp,split_attribute);
+			node->is_cont=true;
 			// may differ if handling done for continous target attribute too , but id3 not good in that
 			node->class_pair=get_class_pair(input_data,node->total_v);
 

@@ -5,7 +5,6 @@
 #include "file_reader.h"
 
 using namespace std;
-#define TEST_LIMIT 30
 
 vector<string> spplit(string s,char del)
 {
@@ -227,8 +226,29 @@ void pre_process_data(vector<pair<vector<string>,string> >& input_data)
 
 
 }
+/* divide data into various fold data */
+
+void divide_data(vector<vector<pair<vector<string>,string> > >& test_data,vector<pair<vector<string>,string> > input_data,vector<vector<pair<vector<string>,string> > >& train_data)
+{
+
+	int div=(input_data.size()-1)/10;
+
+	int i=0,p=0,j=0,k=0;
+	for(i=1;i<input_data.size() && k<10;i+=div)
+	{
+		copy(input_data.begin(),input_data.begin()+i,back_inserter(train_data[k]));
+		for(j=i;j<i+div;j++)
+		{
+			test_data[k].push_back(input_data[j]);
+		}
+		copy(input_data.begin()+j,input_data.end(),back_inserter(train_data[k]));
+		//train_data[k].insert(train_data[k].begin(),input_data[0]);
+		k++;
+	}
+
+}
 /* read actual data file */
-void read_data_file(string file_name,vector<pair<vector<string>,string> >& input_data,bool is_target_front,unordered_map<string,Attribute_feature*>& attributes,vector<string>& a_list,vector<string>& target_values,vector<pair<vector<string>,string> >& test_data,int data_size)
+void read_data_file(string file_name,vector<pair<vector<string>,string> >& input_data,bool is_target_front,unordered_map<string,Attribute_feature*>& attributes,vector<string>& a_list,vector<string>& target_values,int data_size,int per)
 {
 		// zero row is always the attribute list with target value as Attribute_List
 
@@ -237,9 +257,11 @@ void read_data_file(string file_name,vector<pair<vector<string>,string> >& input
 
 	ifile.open(file_name);
 
+
+
 	// write list of attrubute to zero row;
 
-	float limit=0.3*(float)data_size;
+	
 
 	vector<string> att_list;
 
@@ -274,32 +296,26 @@ void read_data_file(string file_name,vector<pair<vector<string>,string> >& input
 		}
 
 		//cout<<target_value<<"\n";
+
+		input_data.push_back(make_pair(line_att,target_value));
 		
 		int gen=rand()%data_size+1;
 
-		if(gen%2==0 || test_data.size()>limit)
-		{
-			// add value to tracker
-
-			for(int i=0;i<line_att.size();i++)
-			{
-				if(find(tracker[i].second.begin(),tracker[i].second.end(),line_att[i])==tracker[i].second.end())
-					tracker[i].second.push_back(line_att[i]);
-			}
-
-			if(target_tracker.count(target_value)==0)
-				target_tracker.insert(target_value);
-
 		
-			input_data.push_back(make_pair(line_att,target_value));
-		}
-		else
+		for(int i=0;i<line_att.size();i++)
 		{
-			test_data.push_back(make_pair(line_att,target_value));
+			if(find(tracker[i].second.begin(),tracker[i].second.end(),line_att[i])==tracker[i].second.end())
+					tracker[i].second.push_back(line_att[i]);
 		}
+
+		if(target_tracker.count(target_value)==0)
+			target_tracker.insert(target_value);
 
 
 	}
+
+	random_shuffle(input_data.begin(),input_data.end());
+	
 
 	//check_test_data(test_data);
 	//cout<<"========INPUT DATA ========\n";
